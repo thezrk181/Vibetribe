@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        p {
+            animation-name: slide-in;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+            font-weight: bold;
+            background-color: #d4edda;
+            padding: 10px;
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        @keyframes slide-in {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center;">Welcome To GFG</h3>
+    <p>CSS Tutorial - GeeksforGeeks</p>
+</body>
+</html>
+<!-- This code creates a simple webpage with a sliding text animation using CSS. The text "CSS Tutorial - GeeksforGeeks" slides from left to right and back, repeating indefinitely. -->
