@@ -10,9 +10,7 @@ You can view the live website here:
 
 👉 **[https://thezrk181.github.io/Vibetribe/](https://thezrk181.github.io/Vibetribe/)**
 
-*(Replace with your actual GitHub Pages URL)*
 
----
 
 ## 📁 Project Structure
 
